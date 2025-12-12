@@ -1,59 +1,155 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## 🧠 NeuroLink – Your Personal Cognitive Twin
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+A smart, adaptive system designed to understand users, analyze decisions, track emotions, and generate personalized insights that evolve over time.
 
-## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+## Overview
 
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+NeuroLink is a Cognitive Twin platform that mirrors a user’s thinking patterns, preferences, emotional states, and decision styles.
+It offers personalized guidance, adaptive insights, and a structured digital self using AI-driven analytics and user data modeling.
 
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+This project includes:
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+- Cognitive profiling
 
+- Emotional mood tracking
 
-## Output
+- Decision lab simulations
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+- Twin settings and evolution
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+- User dashboard with progress views
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+## Key Features
+## 🔹 User Authentication
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+Secure Login / Signup
 
+Role-based access to user dashboard
 
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+## 🔹 Cognitive Profile
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+Tracks user traits, behavior, thinking patterns
 
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+Generates personalized cognitive maps
 
+Evolves with ongoing user interactions
 
+## 🔹 Decision Lab
 
+Users can input decision scenarios
+
+System analyzes choices and provides:
+
+Risk evaluation
+
+Cognitive bias detection
+
+Recommended alternatives
+
+Saved decisions can be revisited later
+
+## 🔹 Emotional Mood Tracker
+
+Users log emotions daily
+
+Visual analytics for mood patterns
+
+Emotion-based recommendations
+
+## 🔹 Cognitive Evolution
+
+Tracks long-term changes in:
+
+Thinking style
+
+Decision patterns
+
+Emotional stability
+
+Timeline-based evolution graphs
+
+## 🔹 Twin Settings
+
+Customize your cognitive twin
+
+Data controls (reset, export, preferences)
+
+## Tech Stack
+## Frontend
+
+React + TypeScript
+
+Tailwind CSS
+
+ShadCN UI
+
+Recharts for visualizations
+
+## Backend
+
+Python (Flask FastAPI or relevant backend)
+
+MongoDB
+
+## Security
+
+JWT-based authentication
+
+## Project Structure
+```
+NeuroLink/
+  ├── frontend/
+  │     ├── src/
+  │     ├── components/
+  │     ├── pages/
+  │     └── utils/
+  ├── backend/
+  │     ├── app.py
+  │     ├── routes/
+  │     ├── models/
+  │     └── database/
+  ├── README.md
+  └── package.json / requirements.txt
+```
+## How to Run the Project
+1️⃣ Backend Setup
+```
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+
+2️⃣ Frontend Setup
+```
+cd frontend
+npm install
+npm run dev
+```
+
+3️⃣ Open in Browser
+```
+http://localhost:8080/
+```
+##  Screenshots 
+## Home Page
+![WhatsApp Image 2025-11-29 at 21 18 37_56b65cbd](https://github.com/user-attachments/assets/7fe795aa-2634-4f93-afb1-0441dd137c34)
+## Dashboard Page
+![WhatsApp Image 2025-11-29 at 21 15 50_97b15afa](https://github.com/user-attachments/assets/160477dc-dd37-4963-85ef-a351a131a2e4)
+## Profile Page
+![WhatsApp Image 2025-11-29 at 21 17 13_4c08d739](https://github.com/user-attachments/assets/147b8057-9f0b-4a0d-b01f-73ce45f8b30d)
+## DecisionLab Page
+![WhatsApp Image 2025-11-29 at 21 17 27_83d35ba9](https://github.com/user-attachments/assets/61b1de36-f5ae-4938-9ea0-377a1c91f9cd)
+## Emotion Tracking Page
+![WhatsApp Image 2025-11-29 at 21 17 58_590567cd](https://github.com/user-attachments/assets/6fb11610-b2fc-455a-90de-c8651bee2fa8)
+## Course Page
+![WhatsApp Image 2025-11-29 at 21 18 18_c2376540](https://github.com/user-attachments/assets/d22ea2a4-8581-4e08-a73c-ce949bc9d6fa)
+
+## License
+
+This project is licensed under the MIT License.
+
+## Team
+
+**Developed by:** Swathi S and Akshara C
+**Guided by:** Dr. Augustian Issac R
 
